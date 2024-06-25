@@ -1,0 +1,11 @@
+<!-- Selections of the category (if category = snacks, then selections = (Chips - Soft drinks - sweets - etc)) -->
+     <div class="f-h-x-i-selections">
+                                        <!-- options -->
+                                        <a href="" class="selection-f-h-x-i">                       </a> 
+                                        <a href="" class="selection-f-h-x-i">                       </a>
+                                        <a href="" class="selection-f-h-x-i">                       </a>
+                                        <a href="" class="selection-f-h-x-i">                       </a>
+                                        <a href="" class="selection-f-h-x-i">                       </a>
+                                        <a href="" class="selection-f-h-x-i">                       </a>
+                                        <a href="" class="selection-f-h-x-i">                       </a>
+     </div>

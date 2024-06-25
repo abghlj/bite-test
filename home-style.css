@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+    margin: 0;  
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    height: 150vh;
+    background-color: rgb(255, 255, 255);}
+@media(max-width:1000px){
+    body{
+        background:none;
+        background-color: rgb(252, 252, 252);
+        background-size:cover; /* Ensures the image covers the entire card */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat;
+    }
+}
+/* notes code */
+.notes-fhx{
+    background-color: #ffffff;
+    padding: 15px;
+    margin-right: 20px;
+    box-shadow: inset 0px 0px 15px -8px rgba(0,0,0,0.3);
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.notes-fhx h3{
+    font-size: 1.3rem;
+    font-family: 'Brasika Display - Trial', sans-serif;
+    color: #FFBD59;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+.notes-fhx p{
+    font-size: 0.8rem;
+    text-align: right;
+    direction:rtl;
+    margin-left: 20px;
+    margin-right: 5px;
+    color: #FFBD59;
+    font-weight: 500;
+}
+.notes-fhx p a{
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: 5px;
+    background-color: #FFBD59;
+    padding: 6px 10px;
+    border-radius: 40px;
+}
+@media (max-width:580px){
+    .notes-fhx{
+        padding: 15px;
+    }
+    .notes-fhx p{
+        font-size: 0.6rem;
+    }
+    .notes-fhx p a{
+        background-color: white;
+        text-decoration: underline;
+        padding: 0px;
+        font-weight: 800;
+        color: #FFBD59;
+        font-size: 0.6rem;
+    }
+}
+/* F HEADER (FIRST TOP SECTION) */
+    .f-header{
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: rgb(36, 34, 34);
+        justify-content: space-between;
+    }
+    .f-header .search, .pages i{
+        font-size: 1.4rem;
+    }
+    .f-header .f-h-info{
+        padding-top: 3px;
+    }
+    .f-header .f-h-info h3{
+        font-weight: 550;
+    }
+    .f-h-info p{
+        opacity: 0.7;
+    }
+/* SECOND SECTION */
+.f-h-x-i-s::-webkit-scrollbar {
+                display: none; /* Chrome, Safari, Opera */
+            }
+
+    .f-h-x-i-s {
+        display: flex;
+        text-align: center;
+        align-self: center;
+        overflow-x: auto;
+        padding: 10px 10px;
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+        padding-bottom: 0px;
+    }
+    .card-img{
+        flex: 0 0 auto;
+        padding: 0;
+        width:0;
+        margin: 10px;
+        padding: 5px;
+        margin-right: 40px;
+        width: 320px;
+        background-color: transparent;
+        padding-bottom: 0px;
+    }
+    .card-img img{
+        width: 350px;
+        margin: 0;
+        align-items: center;
+        border-radius: 20px;
+        height: auto;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .cfsix-i{
+        display: flex;
+        align-items: center;
+    }
+
+/* third section */
+    .f-h-x-info{
+        padding: 25px;
+        display: flex;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding-top: 10px;
+    }
+    .f-h-x-info .category-i{
+        overflow: hidden;
+        flex: 1 1 150px;
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.16);
+        margin: 0px;
+        color: #282827;
+        transition: transform 0.2s, flex-basis 0.2s;
+        max-width: 100%;
+        padding: 20px;
+        height: 90px;
+        justify-content: space-between;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+    }
+    .f-h-x-info .category-i i{
+        font-size: 1.8rem;margin-right: 20px;
+    }
+    .f-h-x-info .category-i h3{
+        font-weight: 500;
+        font-size: 1.2rem;
+        margin-left: 10px;
+    }
+    
+/* Section Four */
+    .section-4{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:28px;
+        padding-top: 1px;
+        padding-bottom: 0px;
+    }
+    .section-4 h2{
+        margin-right: 20px;
+        font-size: 1.5rem;
+        color: #000000;
+    }
+    .section-4 a{
+        color: #000000;    
+        opacity: 0.6;
+        font-size: 0.9rem;
+        font-weight: 600;
+        
+    }
+    
+
+    /* Section 5 */
+    .selections{
+        display: flex;
+        padding: 30px;
+        padding-top: 14px;
+        align-self: center;
+        overflow-x: auto;
+    }
+    .selections::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera */
+    }
+    .selections a{
+        background-color: transparent;
+        color: rgb(26, 25, 25);
+        border: 1px solid rgba(0, 0, 0, 0.187);
+        border-radius: 30px;
+        padding: 2px 30px;
+        margin-right: 5px;
+        flex: 0 0 auto;
+        transition: 0.2s ease-in-out;
+    }
+    .selections a:hover{
+        opacity: 0.5;
+    }
+    #select-s{
+        background-color:#FFBD59;
+        color: white;
+        border: 0px;
+    }
+
+/* FOOTER */
+:root{
+    --main-color:#FFBD59;
+}
+.footer {
+    background-color: #ffffff;
+    color: var(--main-color);
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .footer h1{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-family: 'Brasika Display - Trial', sans-serif;
+    color: var(--main-color);
+  }
+  /* Styling for the links */
+  .footer a {
+    color: var(--main-color);
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .footer {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  }
+  .footer .li-cr{
+    opacity: 0.7;
+    color: gray;
+  }
